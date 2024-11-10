@@ -1,0 +1,117 @@
+/* EditUserPage.css */
+
+.EditUserPage {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 100px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  input::placeholder {
+    color: #888;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message */
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  /* For tablets and smaller screens */
+  @media (max-width: 768px) {
+    .EditUserPage {
+      padding: 15px;
+      margin-top: 50px; /* Reduce margin-top on smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    input {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
+  /* For mobile screens (phones) */
+  @media (max-width: 480px) {
+    .EditUserPage {
+      padding: 10px;
+      margin-top: 30px; /* Further reduce margin-top on small phones */
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+  
+    input {
+      font-size: 0.85rem;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 0.85rem;
+      padding: 8px;
+    }
+  }
+  
